@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Caninos y Felinos - Centro Veterinario</title>
+</head>
+
+<body>
+    <header>
+        <div class="principal">
+
+            <nav id="  navegacion " class="navegacion">
+                <a href="index.htm ">Inicio</a>
+                <a href="servicios.htm ">Servicios</a>
+                <a href="productos.htm ">Productos</a>
+                <a href="guarderia.htm ">Guardería</a>
+                <a href="promociones.htm ">Promociones</a>
+            </nav>
+            <img src="imagenes/Logo.png " alt="logotipo veterinaria ">
+        </div>
+
+    </header>
+    <h1 class=" fw-300 centrar-texto ">Nuestra Veterinaria </h1>
+    <main class="columnas ">
+        <div class="contenedor-anuncios ">
+            <div class="anuncio ">
+                <h2><img class="iconoh2 " src="imagenes/huella.png " />Ventajas de cuidar a tu mascota</h2>
+                <img class="imgComplemento " src="imagenes/cuidadoMascotas.jpg " />
+                <p>¿Sabías que la hormona Oxitocina, que se secreta cuando el cuerpo experimenta placer, también se secreta cuando una mascota y su dueño experimentan interacciones positivas entre si?</p>
+                <a href="guarderia.htm " class="boton">Ver más...</a>
+            </div>
+            <div class="anuncio ">
+                <h2><img class="iconoh2 " src="imagenes/huella.png " /> Buena alimentación</h2>
+                <img class="imgComplemento " src="imagenes/gatoPerroComiendo.jpg " />
+                <p>La alimentación de un perro es la base para poder vivir y dependiendo de ella, la salud del animal variará para bien o para mal. siempre es bueno una alimentacion balanciada</p>
+                <a href="productos.htm " class="boton">Ver más...</a>
+            </div>
+            <div class="anuncio ">
+                <h2><img class="iconoh2 " src="imagenes/huella.png " /> Peluquería canina</h2>
+                <img class="imgComplemento " src="imagenes/peluqueriaCanina.jpg " />
+                <p>La salud del animal también debe pasar por un control de la salud capilar, verificando la ausencia de dematopatías como seborreas, prurito o piodermas.</p>
+
+                <a href="servicios.htm " class="boton">Ver más...</a>
+            </div>
+            <div class="formulario">
+                < <form id="formulario " action=" " method="post " name="formulario ">
+                    <h2>Solicitar Cita Médica</h2>
+                    <ul>
+                        <li>
+                            <label>Nombre de la Mascota:</label>
+                            <input type="text " name="mascota " placeholder="Ingrese el Nombre: ">
+                        </li>
+                        <li>
+                            <label for="edad ">Edad de la Mascota:</label>
+                            <input type="text " name="edad ">
+                        </li>
+                        <li>
+                            <label for="raza ">Raza de la Mascota:</label>
+                            <input type="text " name="raza " placeholder="Ingrese Raza: ">
+                        </li>
+                        <li> <label for="fecha">Fecha:</label>
+                            <input type="date" id="Fecha">
+                        </li>
+                        <li>
+
+                            <label for="hora">Hora:</label>
+                            <input type="time" id="Horas" min="09:00" max="18:00">
+                        </li>
+
+                        <li>
+                            <label for="amo ">Nombre del Amo:</label>
+                            <input type="text " name="amo " placeholder="Ingrese el Nombre: ">
+                        </li>
+                        <li>
+                            <button class="boton">validar cita</button>
+                        </li>
+                    </ul>
+
+                    </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Contáctenos</p>
+        <p>Linea Gratuita 018000-00001</p>
+        <p>correo: preguntas@caninosyfelinos.com</p>
+    </footer>
+</body>
+
+</html>
